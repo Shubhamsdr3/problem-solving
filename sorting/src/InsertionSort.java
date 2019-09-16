@@ -11,7 +11,7 @@ public class InsertionSort {
         for (int firstUnsortedIndex = 1; firstUnsortedIndex < arr.length; firstUnsortedIndex++) {
             int newElement = arr[firstUnsortedIndex];
             int i ;
-            //For the sorted part.
+            // For the sorted part.
             // It moves unless i reaches to fist index and element at
             // position i-1 (previous element) is greater than the element to insert(newElement).
             for (i= firstUnsortedIndex; i > 0 && arr[i -1] > newElement; i--) {
@@ -25,7 +25,6 @@ public class InsertionSort {
     }
 
     private static void insertionSortRecursion(int[] arr, int numOfItems) {
-
         if (numOfItems < 2) {
             return ;
         }
