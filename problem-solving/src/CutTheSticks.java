@@ -1,3 +1,5 @@
+import greedyalgorithm.MyUtils;
+
 import java.util.Arrays;
 
 public class CutTheSticks {

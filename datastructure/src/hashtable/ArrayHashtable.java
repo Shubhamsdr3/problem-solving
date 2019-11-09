@@ -6,7 +6,7 @@ public class ArrayHashtable {
 
     private StoredEmployee[] hashtable;
 
-    public ArrayHashtable() {
+    private ArrayHashtable() {
         // Give it capacity of 10.
         hashtable = new StoredEmployee[10];
     }
@@ -36,7 +36,7 @@ public class ArrayHashtable {
      * @param employee: to put in array.
      * @throws :  ElementAlreadyExistException
      */
-    public void putHashed(String key, Employee employee) throws ElementAlreadyExistException {
+    private void putHashed(String key, Employee employee) throws ElementAlreadyExistException {
         int hashedKey = hashKey(key);
         if (ifAlreadyExist(hashedKey)) {
             // Start looking for the next place.
@@ -55,17 +55,17 @@ public class ArrayHashtable {
         }
         if (hashtable[hashedKey] != null) {
             // No handling collision.
-            throw new ElementAlreadyExistException("The element you are trying to insert is alredy exist");
+            throw new ElementAlreadyExistException("The element you are trying to insert is already exist");
         } else {
             hashtable[hashedKey] = new StoredEmployee(key, employee);
         }
     }
 
-    public boolean ifAlreadyExist(int index) {
+    private boolean ifAlreadyExist(int index) {
         return hashtable[index] != null;
     }
 
-    public Employee get(String key) {
+    private Employee get(String key) {
         // In Constant time.
         int hashedKey = findKey(key);
         if (hashedKey == -1) {
@@ -73,6 +73,27 @@ public class ArrayHashtable {
         } else {
            return hashtable[hashedKey].employee;
         }
+    }
+
+    private Employee remove(String key) throws ElementAlreadyExistException {
+        int hashedKey = findKey(key);
+        if (hashedKey ==  -1) {
+            // No element found with this key.
+            return null;
+        }
+        Employee employee = hashtable[hashedKey].employee;
+        hashtable[hashedKey] =  null; // This will cause the issue in findKey().
+        // To solve the issue in findKey() ,instead of setting the value to null
+        // We will solve using Rehashing them.
+        StoredEmployee[] oldHashtable = hashtable;
+        hashtable = new StoredEmployee[oldHashtable.length];
+        for (int i = 0; i< oldHashtable.length; i++) {
+            if (oldHashtable[i] != null) {
+                putHashed(oldHashtable[i].key, oldHashtable[i].employee);
+            }
+        }
+
+        return employee;
     }
 
     private int findKey(String key) {
@@ -92,6 +113,8 @@ public class ArrayHashtable {
         while (hashedKey != stopIndex
                 && hashtable[hashedKey] != null
                 && !hashtable[hashedKey].key.equals(key)) {
+            // Dropout to the loop when hashtable[hashedKey] == null.
+            // There is a reason that will be using rehashing.
             hashedKey = (hashedKey + 1) % hashtable.length;
         }
 
@@ -102,7 +125,7 @@ public class ArrayHashtable {
         }
     }
 
-    public void printHashTable() {
+    private void printHashTable() {
         for (StoredEmployee employee : hashtable) {
             if (employee == null) {
                 System.out.println("Empty...");
@@ -121,6 +144,8 @@ public class ArrayHashtable {
         arrayHashtable.putHashed(employee2.getFirstName(), employee2);
         arrayHashtable.putHashed(employee3.getFirstName(), employee3);
         arrayHashtable.printHashTable();
-        System.out.println(arrayHashtable.get(employee1.getFirstName()));
+        System.out.println("Removing item ============ :"  +arrayHashtable.remove(employee1.getFirstName()));
+        arrayHashtable.printHashTable();
+        System.out.println("Item found is : " + arrayHashtable.get(employee3.getFirstName()));
     }
 }

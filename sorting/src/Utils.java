@@ -1,6 +1,7 @@
 
 public class Utils {
-    public static void swapElement(int[] arr, int i, int j) {
+
+    static void swapElement(int[] arr, int i, int j) {
         if (i == j) {
             return;
         }
