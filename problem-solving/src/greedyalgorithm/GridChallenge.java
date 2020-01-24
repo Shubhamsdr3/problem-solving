@@ -10,7 +10,7 @@ public class GridChallenge {
         }
         String[] resultArray = new String[grid.length];
         for (int i = 0; i< grid.length; i++) {
-            String firstRow = grid[i]; // row of string
+            String firstRow = grid[i]; // row of leetcode.string
             char[] chars = firstRow.toCharArray();
             Arrays.sort(chars);
             StringBuilder stringBuilder = new StringBuilder();

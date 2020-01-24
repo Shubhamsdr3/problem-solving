@@ -1,5 +1,7 @@
 package list;
 
+import graph.shortestpath.Node;
+
 public class IntegerLinkedList {
 
     private IntegerNode head;
@@ -60,6 +62,7 @@ public class IntegerLinkedList {
         }
         System.out.println("null");
     }
+
 
     public static void main(String[] args) {
         Integer one = 1;

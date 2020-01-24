@@ -1,10 +1,10 @@
 
 public class AppendDelete {
     /**
-     * @param s : To modify in desired string.
-     * @param t : the desired string.
-     * @param k : number of steps to achieve the desired string.
-     * @return : the desired string.
+     * @param s : To modify in desired leetcode.string.
+     * @param t : the desired leetcode.string.
+     * @param k : number of steps to achieve the desired leetcode.string.
+     * @return : the desired leetcode.string.
      */
     private static String appendAndDelete(String s, String t, int k) {
         //Find the common character for
