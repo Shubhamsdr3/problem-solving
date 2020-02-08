@@ -1,0 +1,27 @@
+package easy;
+
+public class NumberOf1Bit {
+
+    private static int hammingWeight(int n) {
+        int count = 0;
+        while (n!=0) {
+            n = n & (n-1);
+            count++;
+        }
+        return count;
+    }
+
+    private static int countSetBits(int n) {
+        int count = 0;
+        while (n > 0) {
+            count += n & 1;
+            n >>= 1;
+        }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(hammingWeight(6));
+        System.out.println(countSetBits(6));
+    }
+}
