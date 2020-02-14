@@ -1,9 +1,9 @@
 package linkedlist;
 
-public class SinglyLinkedList {
+class SinglyLinkedList {
 
-    public SinglyLinkedListNode head;
-    public SinglyLinkedListNode tail;
+    SinglyLinkedListNode head;
+    private SinglyLinkedListNode tail;
 
     SinglyLinkedList() {
         this.head = null;
@@ -11,15 +11,12 @@ public class SinglyLinkedList {
     }
 
     void insertNode(int nodeData) {
-
         SinglyLinkedListNode node = new SinglyLinkedListNode(nodeData);
-
         if (this.head == null) {
             this.head = node;
         } else {
             this.tail.next = node;
         }
-
         this.tail = node;
     }
 

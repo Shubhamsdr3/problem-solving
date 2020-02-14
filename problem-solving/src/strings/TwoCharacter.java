@@ -4,16 +4,32 @@ import java.util.Arrays;
 
 public class TwoCharacter {
 
-    //TODO:SHUBHAM
     private static int alternate(String s) {
         String unique = findUniqueCharacter(s);
-        String string = s;
-        for (int i=0; i < unique.length(); i++) {
-            string = removeDuplicate(string, unique.charAt(i));
-            if (isValidString(string)) {
-                return string.length();
+
+        int i = 0;
+        int j = i+1;
+
+        while (i < unique.length()-1) {
+            removeDuplicate(s, unique.charAt(i));
+            removeDuplicate(s, unique.charAt(j));
+            if (isValidString(s)) {
+                return s.length();
             }
+            i++;
+            j++;
         }
+
+
+//        for (int i=0; i < unique.length(); i++) {
+//            for (int j = i+1; j < unique.length(); j++) {
+//                string = removeDuplicate(string, unique.charAt(i));
+//                string = removeDuplicate(string, unique.charAt(j));
+//                if (isValidString(string)) {
+//                    return string.length();
+//                }
+//            }
+//        }
         return 0;
     }
 
