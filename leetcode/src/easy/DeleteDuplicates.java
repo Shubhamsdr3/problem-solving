@@ -1,5 +1,7 @@
 package easy;
 
+import easy.data.ListNode;
+
 public class DeleteDuplicates {
 
     /**

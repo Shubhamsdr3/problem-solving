@@ -1,45 +1,17 @@
 package easy;
 
+import easy.data.TreeNode;
+
 public class SumOfLeftLeaves {
 
     private static int sum = 0;
     private static TreeNode rootNode;
 
-    static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-
-        void insert(Integer value) {
-            if (value == val) {
-                //Duplicate value
-                return;
-            }
-            if (value < val) {
-                if (left == null) {
-                    left = new TreeNode(value);
-                } else {
-                    left.insert(value);
-                }
-            } else {
-                if (right == null) {
-                    right = new TreeNode(value);
-                } else {
-                    right.insert(value);
-                }
-            }
-        }
-    }
-
     public void insert(Integer value) {
         if (rootNode == null){
             rootNode = new TreeNode(value);
         } else {
-            rootNode.insert(value);
+            rootNode.insert(rootNode, value);
         }
     }
 

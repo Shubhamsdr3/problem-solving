@@ -1,15 +1,15 @@
-package easy;
+package easy.data;
 
-class ListNode {
+public class ListNode {
 
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 
-    ListNode addToLast(ListNode head, int val) {
+    public ListNode addToLast(ListNode head, int val) {
         ListNode newNode = new ListNode(val);
 
         // if there is no node
@@ -30,7 +30,7 @@ class ListNode {
         return newNode;
     }
 
-    private void printList(ListNode head) {
+    public void printList(ListNode head) {
         while (head != null) {
             System.out.println(head.val);
             head = head.next;
