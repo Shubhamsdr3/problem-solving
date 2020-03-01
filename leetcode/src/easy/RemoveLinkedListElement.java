@@ -2,7 +2,7 @@ package easy;
 
 public class RemoveLinkedListElement {
 
-    class ListNode {
+    private static class ListNode {
 
         int val;
         ListNode next;

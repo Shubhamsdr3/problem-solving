@@ -2,7 +2,7 @@ package easy;
 
 public class MiddleNodeLinkedList {
 
-    static class ListNode  {
+    private static class ListNode  {
         int val;
         ListNode next;
 
