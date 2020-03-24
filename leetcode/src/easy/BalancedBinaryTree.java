@@ -20,10 +20,10 @@ public class BalancedBinaryTree {
 
     public static void main(String[] args) {
         TreeNode root1 = new TreeNode(3);
-        root1.insert(root1, 9);
-        root1.insert(root1, 20);
-        root1.insert(root1, 15);
-        root1.insert(root1, 7);
+        root1.insertBinaryTree(root1, 9);
+        root1.insertBinaryTree(root1, 20);
+        root1.insertBinaryTree(root1, 15);
+        root1.insertBinaryTree(root1, 7);
 
         System.out.println(maxDepth(root1));
     }

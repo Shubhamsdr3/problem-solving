@@ -26,7 +26,7 @@ public class ClimbingStairs {
         } else {
             int index = 1;
         }
-        //FIXME:SHUBHAm
+        //FIXME:SHUBHAM
         return 0;
     }
 

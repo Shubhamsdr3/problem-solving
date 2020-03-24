@@ -38,10 +38,10 @@ public class BinaryTreeLevelOrderTraversal {
 
     public static void main(String[] args) {
         TreeNode root1 = new TreeNode(3);
-        root1.insert(root1, 9);
-        root1.insert(root1, 20);
-        root1.insert(root1, 15);
-        root1.insert(root1, 7);
+        root1.insertBST(root1, 9);
+        root1.insertBST(root1, 20);
+        root1.insertBST(root1, 15);
+        root1.insertBST(root1, 7);
 
         System.out.println(levelOrderBottom(root1));
     }

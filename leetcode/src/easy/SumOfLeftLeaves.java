@@ -11,7 +11,7 @@ public class SumOfLeftLeaves {
         if (rootNode == null){
             rootNode = new TreeNode(value);
         } else {
-            rootNode.insert(rootNode, value);
+            rootNode.insertBinaryTree(rootNode, value);
         }
     }
 

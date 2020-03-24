@@ -19,12 +19,12 @@ public class SameTree {
 
     public static void main(String[] args) {
         TreeNode root1 = new TreeNode(2);
-        root1.insert(root1, 1);
-        root1.insert(root1, 5);
+        root1.insertBinaryTree(root1, 1);
+        root1.insertBinaryTree(root1, 5);
 
         TreeNode root2 = new TreeNode(2);
-        root2.insert(root2, 1);
-        root2.insert(root2, 3);
+        root2.insertBinaryTree(root2, 1);
+        root2.insertBinaryTree(root2, 3);
 
         System.out.println(isSameTree(root1, root2));
     }

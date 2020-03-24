@@ -22,13 +22,13 @@ public class ConvertArrayToBST {
             if (root.left == null) {
                 root.left = new TreeNode(value);
             } else {
-                root.left.insert(root, value);
+                root.left.insertBinaryTree(root, value);
             }
         } else {
             if (root.right == null) {
                 root.right = new TreeNode(value);
             } else {
-                root.right.insert(root, value);
+                root.right.insertBinaryTree(root, value);
             }
         }
     }
