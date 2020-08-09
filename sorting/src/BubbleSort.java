@@ -2,8 +2,9 @@ import java.util.Arrays;
 public class BubbleSort {
 
     private static int[] bubbleSort(int[] list) {
-     for (int lastUnsortedIndex = list.length -1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
-         for (int j=0; j< lastUnsortedIndex; j++) {
+     for (int lastUnsortedIndex = list.length -1; lastUnsortedIndex >= 0; lastUnsortedIndex--) {
+
+         for (int j = 0; j < lastUnsortedIndex; j++) {
              if (list[j] > list[j+1]) {
                  Utils.swapElement(list, j, j+1);
              }

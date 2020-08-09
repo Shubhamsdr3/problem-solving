@@ -22,7 +22,7 @@ public class ArrayStack {
             System.arraycopy(stack, 0, newArray, 0, stack.length);
             stack = newArray;
         }
-        stack[top ++] = employee; // cost: O(1)
+        stack[top++] = employee; // cost: O(1)
     }
 
     private Employee pop() {

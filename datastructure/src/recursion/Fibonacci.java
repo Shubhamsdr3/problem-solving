@@ -24,7 +24,7 @@ public class Fibonacci {
      * @return
      */
     private static int fibDynamic(int n) {
-        int[] memo = new int[n+1]; // to store the value of subproblems
+        int[] memo = new int[n+1]; // to store the value of sub-problems
         int i;
         memo[0] = 0;
         if (n > 0) {

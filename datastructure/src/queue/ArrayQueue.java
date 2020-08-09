@@ -41,7 +41,7 @@ public class ArrayQueue {
             queue = employees;
         }
         queue[back] = employee;
-        back ++;
+        back++;
     }
 
     public Employee remove() {

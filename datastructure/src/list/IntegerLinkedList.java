@@ -1,7 +1,5 @@
 package list;
 
-import graph.shortestpath.Node;
-
 public class IntegerLinkedList {
 
     private IntegerNode head;
