@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/codechef/codechef.iml" filepath="$PROJECT_DIR$/codechef/codechef.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contests/contests.iml" filepath="$PROJECT_DIR$/contests/contests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctci/ctci.iml" filepath="$PROJECT_DIR$/ctci/ctci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datastructure/datastructure.iml" filepath="$PROJECT_DIR$/datastructure/datastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem-solving/problem-solving.iml" filepath="$PROJECT_DIR$/problem-solving/problem-solving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactive/reactive.iml" filepath="$PROJECT_DIR$/reactive/reactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sorting/sorting.iml" filepath="$PROJECT_DIR$/sorting/sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spoj/spoj.iml" filepath="$PROJECT_DIR$/spoj/spoj.iml" />
+    </modules>
+  </component>
+</project>
