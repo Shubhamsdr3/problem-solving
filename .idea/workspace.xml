@@ -2,20 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aabfa262-2c60-4c0d-ae08-33e7e553e716" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaxErasureValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/OnesAndZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/RemoveDuplicatesSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SearchRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/src/graphtheory/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/src/graphtheory/SmallestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codechef/gfg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/AddStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/AddToArrayForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/FizBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/IndexOfImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/FirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/kotlinexamples/Example.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ArrayPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/DivideTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FindFirstAndLastPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/KthSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestSubStringAtLeastKRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaxWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MultiplyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/OddEventLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ReverseLinkedListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SearchInRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/TrappingRainWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/gfg/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/gfg/SubarrayWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/CirculerTimber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/ClockAngleProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/FirstNonRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/LargestSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/LargestSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/MergeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/MinimumSortedRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/ProductDefects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/TripletsWithZeroSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/ZerosAndOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/interviewprep/data/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/sorting/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/problem-solving.iml" beforeDir="false" afterPath="$PROJECT_DIR$/problem-solving/problem-solving.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reactive/reactive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/reactive/reactive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorting/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorting/src/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/DeleteNodeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/DeleteNodeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/LevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/LevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/SearchRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/SearchRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/DeleteNodeLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/DeleteNodeLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/ReverseLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/LevelOrderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/LevelOrderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/PalindromeLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/PalindromeLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/SearchRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/SearchRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/problem-solving/META-INF/problem-solving.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problem-solving/META-INF/problem-solving.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/problem-solving/graphtheory/MainKt$aVar$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problem-solving/graphtheory/MainKt$aVar$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/problem-solving/graphtheory/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problem-solving/graphtheory/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive/src/intro/ObserverExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/reactive/src/intro/ObserverExample.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +95,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.SmallestElements">
-    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.LongestSubstring" />
+  <component name="RunManager" selected="Application.GroupAnagrams">
+    <configuration name="FindFirstAndLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.FindFirstAndLastPosition" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxErasureValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.MaxErasureValue" />
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.GroupAnagrams" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.RemoveDuplicatesSortedArray" />
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.RotateImage" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.SearchRotatedSortedArray" />
+    <configuration name="SearchInRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.SearchInRotatedArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -104,26 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphtheory.SmallestElements" />
-      <module name="problem-solving" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphtheory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="kotlinexamples.ExampleKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SmallestElements" />
-        <item itemvalue="Application.SearchRotatedSortedArray" />
-        <item itemvalue="Application.RemoveDuplicatesSortedArray" />
-        <item itemvalue="Application.MaxErasureValue" />
-        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.GroupAnagrams" />
+        <item itemvalue="Application.RotateImage" />
+        <item itemvalue="Application.FindFirstAndLastPosition" />
+        <item itemvalue="Application.SearchInRotatedArray" />
+        <item itemvalue="Application.ExampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -159,9 +206,24 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/problem-solving/src/graphtheory/SmallestElements.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/problem-solving/src/interviewprep/LargestSubArray.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/OddEventLinkedList.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/MaxWater.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/FindFirstAndLastPosition.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

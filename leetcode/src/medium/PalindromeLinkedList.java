@@ -2,40 +2,53 @@ package medium;
 
 import easy.data.ListNode;
 
+import java.util.List;
+import java.util.Queue;
 import java.util.Stack;
 
 public class PalindromeLinkedList {
 
     private static boolean isPalindrome(ListNode head) {
-        if (head == null) {
-            return false;
+        ListNode slow = head;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
         }
-        ListNode temp = head;
-        Stack<Integer> stack = new Stack<>();
-        while (temp != null) {
-            stack.add(temp.val);
-            temp = temp.next;
+        if (fast != null) { // for odd nodes
+            slow = slow.next;
         }
-        if (stack.size() ==1) {
-            return true;
-        }
-        int i = 0;
-        int j = stack.size() -1;
-        while (i < j) {
-            if (!stack.get(i).equals(stack.get(j))) {
+        slow = reverse(slow);
+        ListNode dummy = head;
+        while (slow != null) {
+            if (slow.val != dummy.val) {
                 return false;
             }
-            i++;
-            j--;
+            slow = slow.next;
+            dummy = dummy.next;
         }
         return true;
     }
 
+    private static ListNode reverse(ListNode head) {
+        ListNode prev = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
-//        head.addToLast(head, 0);
-//        head.addToLast(head, 0);
-//        head.addToLast(head, 1);
+        head.addToLast(head, 2);
+        head.addToLast(head, 3);
+        head.addToLast(head, 4);
+        head.addToLast(head, 3);
+        head.addToLast(head, 2);
+        head.addToLast(head, 1);
         System.out.println(isPalindrome(head));
     }
 }
