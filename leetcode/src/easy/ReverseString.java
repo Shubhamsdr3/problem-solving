@@ -6,7 +6,7 @@ import java.util.Set;
 public class ReverseString {
 
     private static void reverseString(char[] s) {
-        int i =0;
+        int i = 0;
         int j = s.length -1;
         while (i < j) {
             char temp = s[j];
@@ -22,16 +22,20 @@ public class ReverseString {
 
     private static String reverseVowels(String s) {
         char[] arr = s.toCharArray();
-        int i =0;
+        int i = 0;
         int j = arr.length -1;
         while (i < j) {
-            if (isVowel(arr[i])) {
-                char temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
+            while (i < j && !isVowel(arr[i])) {
                 i++;
+            }
+            while (i < j && !isVowel(arr[j])) {
                 j--;
             }
+            char temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
         }
         StringBuilder sb = new StringBuilder();
         for (char c: arr) {
@@ -51,7 +55,7 @@ public class ReverseString {
     }
 
     public static void main(String[] args) {
-//        char[] arr = new char[]{'h','e','l','l','o'};
+        char[] arr = new char[]{'h','e','l','l','o'};
         String str = "hello";
         System.out.print(reverseVowels(str));
     }

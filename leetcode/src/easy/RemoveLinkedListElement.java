@@ -1,19 +1,11 @@
 package easy;
 
+import easy.data.ListNode;
+
 public class RemoveLinkedListElement {
 
-    private static class ListNode {
-
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     // recursive approach
-    private ListNode removeElements(ListNode head, int val) {
+    private static ListNode removeElements(ListNode head, int val) {
         if (head == null) {
             return null;
         }
@@ -25,7 +17,34 @@ public class RemoveLinkedListElement {
         return head;
     }
 
-    public static void main(String[] args) {
+    /**
+     * Iterative approach
+     * @param head
+     * @param val
+     * @return
+     */
+    private static ListNode removeElementsIterative(ListNode head, int val) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = null;
+        ListNode node = dummy;
+        while (node != null) {
+            if (prev != null && node.val == val) {
+                prev.next = node.next;
+            } else {
+                prev = node;
+            }
+            node = node.next;
+        }
+        return dummy.next;
+    }
 
+    public static void main(String[] args) {
+        ListNode head = new ListNode(7);
+        head.addToLast(head, 7);
+        head.addToLast(head, 7);
+        head.addToLast(head, 7);
+        ListNode resHead = removeElementsIterative(head, 7);
+        resHead.printList(resHead);
     }
 }

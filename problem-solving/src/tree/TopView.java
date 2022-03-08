@@ -8,17 +8,15 @@ import java.util.Queue;
 public class TopView {
 
     private static void topView(Node root) {
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            Node current =  queue.poll();
+        Node current = root;
+        while (current != null) {
             System.out.println(current.data);
-            if (current.left != null) {
-                queue.offer(current.left);
-            }
-            if (current.right != null) {
-                queue.offer(current.right);
-            }
+            current = current.left;
+        }
+        current = root.right;
+        while (current != null) {
+            System.out.println(current.data);
+            current = current.right;
         }
     }
 
@@ -48,12 +46,13 @@ public class TopView {
     }
 
     public static void main(String[] args) {
-        Node root = new Node(1);
-        insert(root, 2);
-        insert(root, 5);
-        insert(root, 6);
-        insert(root, 3);
+        Node root = new Node(6);
         insert(root, 4);
+        insert(root, 8);
+        insert(root, 5);
+        insert(root, 3);
+        insert(root, 2);
+        insert(root, 9);
 //        traverseList(root);
         topView(root);
     }

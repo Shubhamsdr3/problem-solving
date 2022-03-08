@@ -13,7 +13,7 @@ public class Main {
     // space complexity: O(n)
     // time complexity : O(n)
     private static int[] reverseArray(int[] arr) {
-        int a[]=new int [arr.length]; // temp array
+        int[] a = new int [arr.length]; // temp array
         int n = arr.length -1;
         int start = 0;
         for (int i = n; i >=0; i--) {

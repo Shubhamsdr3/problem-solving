@@ -14,7 +14,7 @@ public class TreeNode {
         left =  null;
         right = null;
     }
-
+    
     /**
      * Visit the left subtree
      * Visit the root
@@ -82,6 +82,4 @@ public class TreeNode {
         }
         return root;
     }
-
-
 }
