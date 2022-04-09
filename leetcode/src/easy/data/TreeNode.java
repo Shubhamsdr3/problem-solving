@@ -31,6 +31,36 @@ public class TreeNode {
     }
 
     /**
+     * Visit the root
+     * Visit the left subtree
+     * Visit the right subtree
+     * @param root
+     */
+    public void preOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.val + " ");
+        preOrder(root.left);
+        preOrder(root.right);
+    }
+
+    /**
+     * Visit the root
+     * Visit the left subtree
+     * Visit the right subtree
+     * @param root
+     */
+    public void postOrder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        System.out.print(root.val + " ");
+        postOrder(root.left);
+        postOrder(root.right);
+    }
+
+    /**
      * Recursive approach to insert value in Binary Search Tree
      * @param root:
      * @param key: value to be inserted
