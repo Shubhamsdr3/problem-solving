@@ -2,42 +2,36 @@ package easy;
 
 import easy.data.TreeNode;
 
+import java.util.Stack;
+
 public class SumOfLeftLeaves {
 
-    private static int sum = 0;
-    private static TreeNode rootNode;
-
-    public void insert(Integer value) {
-        if (rootNode == null){
-            rootNode = new TreeNode(value);
-        } else {
-            rootNode.insertBinaryTree(rootNode, value);
-        }
-    }
-
     private static int sumOfLeftLeaves(TreeNode root) {
-        if (root == null) {
-            return sum;
+        int sum = 0;
+        Stack<TreeNode> stack = new Stack<>();
+        stack.add(root);
+        while (!stack.isEmpty()) {
+            TreeNode current = stack.pop();
+            if (current.left.left == null && current.left.right == null) {
+                sum = sum  + current.left.val;
+            } else {
+                stack.push(current.left);
+            }
+            if (current.right != null) {
+                if (current.right.left != null && current.right.right != null) {
+                    stack.push(current.right);
+                }
+            }
         }
-        TreeNode current = root;
-        while(current.left != null) {
-            current = current.left;
-        }
-        sum = sum + current.val;
-        return sumOfLeftLeaves(root.right);
+        return sum;
     }
 
     public static void main(String[] args) {
-       //{3,9,20,null,null,15,7}
-        SumOfLeftLeaves sum = new SumOfLeftLeaves();
-        sum.insert(3);
-        sum.insert(9);
-        sum.insert(20);
-        sum.insert(null);
-        sum.insert(null);
-        sum.insert(15);
-        sum.insert(7);
-
-        System.out.println(sumOfLeftLeaves(new TreeNode(3)));
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(9);
+        root.right = new TreeNode(20);
+        root.right.left = new TreeNode(15);
+        root.right.right = new TreeNode(7);
+        System.out.println(sumOfLeftLeaves(root));
     }
 }

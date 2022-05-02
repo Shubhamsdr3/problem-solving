@@ -88,9 +88,8 @@ public class TreeNode {
      * @param root
      * @param key
      */
-
     public TreeNode insertBinaryTree(TreeNode root, int key) {
-        Queue<TreeNode> q = new LinkedList<TreeNode>();
+        Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
 
         while (!q.isEmpty()) {

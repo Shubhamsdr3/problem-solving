@@ -20,8 +20,8 @@ public class MinimumAbsoluteDifference {
     private static int minimumAbsoluteDifference(int[] arr) {
         System.out.println("Started....1" + System.currentTimeMillis());
         int min = Integer.MAX_VALUE;
-        for (int i=0; i< arr.length; i++) {
-            for (int j=i+1; j< arr.length; j++) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
                 int diff = Math.abs(arr[j] - arr[i]);
                 if (diff < min) {
                     min = diff;
@@ -39,8 +39,8 @@ public class MinimumAbsoluteDifference {
         System.out.println("Started...2: " + System.currentTimeMillis());
         Arrays.sort(arr);
         int min = Math.abs(arr[0] - arr[1]);
-        for (int i = 0; i < arr.length -1; i++) {
-            int diff = Math.abs(arr[i] - arr[i+1]);
+        for (int i = 0; i < arr.length - 1; i++) {
+            int diff = Math.abs(arr[i] - arr[i + 1]);
             if (diff < min) {
                 min = diff;
             }
