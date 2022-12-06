@@ -6,7 +6,7 @@ public class MissingNumber {
 
     private static int missingNumber(int[] nums) {
         Arrays.sort(nums);
-        for (int i=0; i <= nums[nums.length-1]; i++) {
+        for (int i = 0; i <= nums[nums.length-1]; i++) {
             if (i != nums[i]) {
                 return i;
             }

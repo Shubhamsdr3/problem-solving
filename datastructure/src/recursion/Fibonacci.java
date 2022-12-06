@@ -20,6 +20,7 @@ public class Fibonacci {
     /**
      * Using Dynamic programming
      * To find the n-th Fibonacci numbers
+     * Tabulation method(bottom up approach)
      * @param n
      * @return
      */

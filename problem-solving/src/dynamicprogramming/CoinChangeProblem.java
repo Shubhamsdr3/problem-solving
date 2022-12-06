@@ -1,13 +1,12 @@
 package dynamicprogramming;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 public class CoinChangeProblem {
 
     private static long getWays(int money, int[] coins) {
-        return makeChanges(money, coins, 0, new HashMap<String, Long>());
+        return makeChanges(money, coins, 0, new HashMap<>());
     }
     /**
      * This is called Top-Down memoization is DP method.

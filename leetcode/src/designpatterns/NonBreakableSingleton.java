@@ -1,5 +1,6 @@
 package designpatterns;
 
+import java.io.Serial;
 import java.io.Serializable;
 
 /**
@@ -47,6 +48,7 @@ public class NonBreakableSingleton implements Serializable, Cloneable {
      * Prevent breaking of singleton pattern using serialization/deserialization
      * @return
      */
+    @Serial
     protected Object readResolve() {
         return instance;
     }
