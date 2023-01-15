@@ -1,11 +1,24 @@
 package designpatterns
 
 import java.lang.Exception
+import java.util.*
 
+
+fun Int.isOddOrEven(): Boolean {
+    return this % 2 == 0
+}
+
+private fun getFrequencyHours(timestamp: Long):Int {
+    val calendar = Calendar.getInstance(Locale.getDefault())
+    calendar.timeInMillis = timestamp
+    return calendar.get(Calendar.HOUR_OF_DAY)
+}
 
 fun main() {
-    val res = divider(100, 0)
-    print(res)
+//    val res = divider(100, 0)
+//    print(res)
+//    print(1.isOddOrEven())
+    print(getFrequencyHours(System.currentTimeMillis() - 1671900319295))
 }
 
 fun divider(numerator: Int, denominator: Int): Int {
@@ -26,8 +39,6 @@ class Example {
     val type = Type.A
 
 }
-
-
 
 class TestScore  {
 

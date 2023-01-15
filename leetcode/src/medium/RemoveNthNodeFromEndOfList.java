@@ -14,25 +14,6 @@ public class RemoveNthNodeFromEndOfList {
      * @return
      */
     private static ListNode removeNthFromEnd(ListNode head, int n) {
-        int count = 0;
-        ListNode current = head;
-        while (current != null) {
-            count++;
-            current = current.next;
-        }
-        if (count <= n) {
-            return null;
-        }
-        int position = count - n;
-        ListNode prev = head;
-        ListNode temp = head;
-        int index = 0;
-        while (index < position) {
-            prev = temp;
-            temp = temp.next;
-            index++;
-        }
-        prev.next = temp.next;
         return head;
     }
 
@@ -57,7 +38,11 @@ public class RemoveNthNodeFromEndOfList {
 
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
-        ListNode res = removeNthFromEnd(head, 1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+        ListNode res = removeNthFromEndCorrect(head, 2);
         res.printList(res);
     }
 }

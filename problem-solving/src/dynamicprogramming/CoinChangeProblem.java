@@ -1,9 +1,61 @@
 package dynamicprogramming;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 public class CoinChangeProblem {
+
+    /**
+     * Find in minimum no of coins to make the money using DP..
+     * @param money
+     * @param arr
+     * @return
+     */
+    private static int minWaysToMakeMoneyUsingDp(int money, int[] arr) {
+        if (money == 0) return 0;
+        int ans = Integer.MAX_VALUE;
+        int[] dp = new int[money + 1];
+        Arrays.fill(dp, -1);
+        for (int i = 0; i < arr.length; i++) {
+            if (money - arr[i] >= 0) { // there coins that needs to be added.
+                int subAns;
+                if (dp[money - arr[i]] != -1) {
+                    subAns = dp[money - arr[i]]; // see if that sub-problems are already solved.
+                } else {
+                    subAns = minWaysToMakeMoney(money - arr[i], arr); // otherwise recurse.
+                }
+                if (subAns != Integer.MAX_VALUE && subAns + 1 < ans) {
+                    ans = subAns + 1;
+                }
+            }
+        }
+        dp[money] = ans; // add values to dp.
+        return ans;
+    }
+
+    /**
+     * Find in minimum no of coins to make the money.
+     * T.C -> O(m^n) m -> no of coins.
+     * @param money
+     * @param arr
+     * @return
+     */
+    private static int minWaysToMakeMoney(int money, int[] arr) {
+        if (money == 0) {
+            return 0;
+        }
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+            if (money - arr[i] >= 0) {
+                int subAns = minWaysToMakeMoney(money - arr[i], arr);
+                if (subAns != Integer.MAX_VALUE && subAns + 1 < ans) {
+                    ans = subAns + 1;
+                }
+            }
+        }
+        return ans;
+    }
 
     private static long getWays(int money, int[] coins) {
         return makeChanges(money, coins, 0, new HashMap<>());
@@ -69,7 +121,7 @@ public class CoinChangeProblem {
     }
 
     public static void main(String[] args) {
-        System.out.println(getWays(4, new int[]{1, 2, 3}));
+        System.out.println(minWaysToMakeMoneyUsingDp(18, new int[]{7, 5, 1}));
     }
 
 }

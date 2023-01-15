@@ -5,151 +5,144 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aabfa262-2c60-4c0d-ae08-33e7e553e716" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gfg/src/easy/TwoStacksUsingAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gfg/src/practice/FillingNPositionsWithMColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/BalancedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/CheckTwoStringEquivalent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/DefuseTheBomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/FindNUniqueIntegers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/FindPivotIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/FindTheKBeauty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/FindTheMiddleIndexInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/HeightChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/Largest3SameDigitNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/LargestPerimeterTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/LargestSubStringBetweenTwoEqualCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MaximizeSumOfArrayAfterKNegations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MaximumNumberOfPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MaximumUnitsOnATruck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MinimumCostMovingChips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MinimumTimeToType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MissingNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MyHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/NumberOfArithmeticTriplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/NumberOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/PartitionArrayIntoThreeParts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/RedistributeCharactersToMakeAllStringsEqual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/RemoveOneElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/ReplaceAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/ReshapeTheMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/SlowestKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/SortArrayByIncreasingFrequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/SplitAStringInBalancedStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/example/BalancedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/example/Example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/example/MyDataStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/LongestChunkedPalindromeDecomposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/NumberOfMusicPlayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/ShortestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/interviewprep/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/interviewprep/array/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/AllElementsInTwoBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ArithmeticSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ArrayOfDoubledPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/BeautifulArrangement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/BestSightSeeingPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/BestTeamWithNoConflicts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/BestTimeToBuyAndSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/BrokenCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/CBTInserter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ContinuousSubArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/CountNodesEqualToAverageSubTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/DecreaseElementsToMakeArrayZigzag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/DeleteColumnsToMakeSorted2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/DivideArrayInSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FindAllAnagramsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FindOriginalArrayFromDoubledArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FlattenBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/HandOfStraights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/HouseColoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/KthLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/KthPairsInSmallestSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/KthSmallestElementInSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LastStoneWeightII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestRepeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestStringChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestWordInDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumAlternatingSubSequenceSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumLengthOfRepeatedSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumMatrixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumNumberOfSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumPointsYouCanObtain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumSumCircularSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumSumOfNonAdjacentElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumSumOfTwoNonOverlappingSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumAsciiDeleteSumForTwoString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumCostTreeFromLeafValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumDeletionsToMakeStringBalanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumNumberOfSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumOperationToReduceXToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/NumberOfWaysToSplitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PancakeSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PartitionArrayForMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PartitionKEqualSumSubsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/QuickSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/RemoveAllOccurrencesOfASubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ShiftingLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SmallestIntegerDivisibleByK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SplitArrayInToConsecutiveSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/StringWithoutAAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SubArrayProductLessThanK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/TheNumberOfWeakCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/UnCrossedLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ValidParenthesisString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/WiggleSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/WiggleSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/src/mxplayer/ArrayChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/src/mxplayer/SearchingChallenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/src/sharechat/BuildingColoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/problem-solving/src/stringmatching/KMPSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/DivideStringIntoK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/FindSubArrayWithEqualSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/JewelsAndStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MatrixDiagonalSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MinimumSumOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/MinimumSumOfFourDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/NumberOfUnequalTripletsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/PositionsOfLargeGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/RowColumnContainsAllNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/easy/TransposeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/MinimumNumberOfDaysEatNOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/MinimumWindoSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/RegularExpressionMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/hard/WildCardMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/interview_22/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/interview_22/SetMatrixZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/AllDivisionWithTheHighestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/AllNodesDistanceKInBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/BinaryTreePruning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ClosestNodesQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/CountBSTInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/CountSquareSumTriples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FindItineraryTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/FruitsInToBaskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/JumpGameIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LetterCombinationsPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestMountainInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/LongestWellPerforming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumEatenApple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumSwapsToGroupAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/NumberOfWaysToSplitString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PartitionArrayAccordingToPivot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/PartitionEqualSubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ScoreAfterFlippingMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ScoreOfParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ShortestSubArrayToBeRemoved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/SmallestSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ThreeSumCloset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/TwoNonOverlappingSubArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/backtracking/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/backtracking/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/backtracking/CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/dp/CountWaysToAssignUniqueCap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/dp/LongestPalindromeSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/dp/MinimumCostPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/greedy/MinimumCoinsToMakeGivenValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/slidingwindow/LexicographicallySmallestEquivalentString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/slidingwindow/LongestSubArrayNotHavingMoreThanKElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/slidingwindow/LongestSubArrayWithAbsoluteDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/slidingwindow/MaxSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/slidingwindow/MinimumSizeSubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/medium/twopointers/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/DivideStringIntoK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/FindSubArrayWithEqualSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/JewelsAndStones.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/MatrixDiagonalSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/MinimumSumOfFour.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/MinimumSumOfFourDigit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/NumberOfUnequalTripletsInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/PositionsOfLargeGroups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/RowColumnContainsAllNumbers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/Test$Companion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/easy/TransposeMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/hard/RegularExpressionMatching.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/interview_22/GroupAnagrams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/interview_22/SetMatrixZeroes$Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/interview_22/SetMatrixZeroes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/AllDivisionWithTheHighestScore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/AllNodesDistanceKInBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/BinaryTreePruning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/ClosestNodesQueries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/CountBSTInRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/CountSquareSumTriples.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/FindItineraryTickets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/GenerateParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/JumpGameIII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/LetterCombinationsPhoneNumber.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/LongestMountainInArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/LongestWellPerforming.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/MaximumSumSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/MinimumSwapsToGroupAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/NumberOfWaysToSplitString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/PartitionArrayAccordingToPivot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/PartitionEqualSubsetSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/ScoreAfterFlippingMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/ScoreOfParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/ShortestSubArrayToBeRemoved.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/SmallestSubTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/ThreeSumCloset.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/TwoNonOverlappingSubArrays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/backtracking/CombinationSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/backtracking/CombinationSum2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/backtracking/CombinationSum3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/dp/CountWaysToAssignUniqueCap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/dp/LongestPalindromeSubString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcode/medium/dp/MinimumCostPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/problem-solving/strings/AnagramSubStringSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem-solving/src/strings/AnagramSubStringSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructure/src/recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructure/src/recursion/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfg/src/practice/SwapKthNodesFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/gfg/src/practice/SwapKthNodesFromEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/src/designpatterns/Example.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/designpatterns/Example.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/designpatterns/FlattenBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/designpatterns/NonBreakableSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/designpatterns/NonBreakableSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/MaximumProductOfThreeNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/ValidPalindrome2.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/ValidPalindrome2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/FindFirstAndLastPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/FindFirstAndLastPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/FlipString.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/FlipString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/FourSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/FourSum2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/LargestDivisibleSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/LargestDivisibleSubset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/MinimumNumberOfFlips.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/MinimumNumberOfFlips.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/MultiplyString.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/MultiplyString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/RemoveDuplicateLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/RemoveDuplicateLetters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/SearchRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/SearchRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/designpatterns/SpecialFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/designpatterns/SpecialFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/Example.kt" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/Example.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/NumberOfArithmeticTriplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/NumberOfArithmeticTriplets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/easy/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/easy/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/hard/FirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/hard/FirstMissingPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/MaximumProductSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/MaximumProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/RemovedCoveredIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/RemovedCoveredIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/src/medium/SubArraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/medium/SubArraySumEqualsK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructure/recursion/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructure/recursion/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/src/medium/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/src/hard/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/Example$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/designpatterns/Example$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/designpatterns/Example.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/designpatterns/ExampleKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/FlattenBinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/NonBreakableSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/designpatterns/NonBreakableSingleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/MaximumProductOfThreeNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/ValidPalindrome2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/ValidPalindrome2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/FindFirstAndLastPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/FindFirstAndLastPosition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/FlipString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/FlipString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/FourSum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/FourSum2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/LargestDivisibleSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/LargestDivisibleSubset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/MinimumNumberOfFlips.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/MinimumNumberOfFlips.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/MultiplyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/MultiplyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/RemoveDuplicateLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/RemoveDuplicateLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/SearchRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/SearchRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/SpecialFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/designpatterns/SpecialFibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/designpatterns/TestScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/designpatterns/TestScore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/ExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/ExampleKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/NumberOfArithmeticTriplets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/NumberOfArithmeticTriplets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/easy/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/easy/ValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/hard/FirstMissingPositive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/hard/FirstMissingPositive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/hard/LongestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/hard/LongestValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/FourSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/MaximumProductSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/MaximumProductSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/RemoveNthNodeFromEndOfList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/RemoveNthNodeFromEndOfList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/RemovedCoveredIntervals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/RemovedCoveredIntervals.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/SubArraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/medium/SubArraySumEqualsK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/medium/TrappingRainWater.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/problem-solving/dynamicprogramming/CoinChangeProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problem-solving/dynamicprogramming/CoinChangeProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/problem-solving/dynamicprogramming/LongestCommonSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problem-solving/dynamicprogramming/LongestCommonSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/problem-solving/stringmatching/KMPSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/problem-solving/stringmatching/KMPSearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem-solving/src/dynamicprogramming/CoinChangeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/problem-solving/src/dynamicprogramming/CoinChangeProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/src/dynamicprogramming/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/problem-solving/src/dynamicprogramming/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/problem-solving/src/greedyalgorithm/GridChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/problem-solving/src/greedyalgorithm/GridChallenge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,13 +188,13 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.NumberOfArithmeticTriplets">
-    <configuration name="AllElementsInTwoBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.AllElementsInTwoBinarySearch" />
+  <component name="RunManager" selected="Application.MinimumSizeSubArraySum">
+    <configuration name="LongestSubArrayNotHavingMoreThanKElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.slidingwindow.LongestSubArrayNotHavingMoreThanKElements" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="medium.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstAndLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.FindFirstAndLastPosition" />
+    <configuration name="LongestSubArrayWithAbsoluteDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.slidingwindow.LongestSubArrayWithAbsoluteDifference" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="medium.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandOfStraights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.HandOfStraights" />
+    <configuration name="LongestValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.LongestValidParentheses" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfArithmeticTriplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.NumberOfArithmeticTriplets" />
+    <configuration name="MaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.slidingwindow.MaxSumSubArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="medium.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfWaysToSplitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.NumberOfWaysToSplitArray" />
+    <configuration name="MinimumSizeSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.slidingwindow.MinimumSizeSubArraySum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="medium.slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberOfArithmeticTriplets" />
-        <item itemvalue="Application.FindFirstAndLastPosition" />
-        <item itemvalue="Application.NumberOfWaysToSplitArray" />
-        <item itemvalue="Application.AllElementsInTwoBinarySearch" />
-        <item itemvalue="Application.HandOfStraights" />
+        <item itemvalue="Application.MinimumSizeSubArraySum" />
+        <item itemvalue="Application.LongestValidParentheses" />
+        <item itemvalue="Application.MaxSumSubArray" />
+        <item itemvalue="Application.LongestSubArrayWithAbsoluteDifference" />
+        <item itemvalue="Application.LongestSubArrayNotHavingMoreThanKElements" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +299,146 @@
           <url>file://$PROJECT_DIR$/leetcode/src/medium/MinimumDeletionsToMakeStringBalanced.java</url>
           <line>17</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/AllNodesDistanceKInBinaryTree.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/AllNodesDistanceKInBinaryTree.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/CountBSTInRange.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/FindItineraryTickets.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/MaximumProductSubArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/easy/PositionsOfLargeGroups.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/PartitionEqualSubsetSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/FourSum.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/GenerateParentheses.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/GenerateParentheses.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/GenerateParentheses.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/backtracking/CombinationSum.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/backtracking/CombinationSum.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/backtracking/CombinationSum2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/FirstMissingPositive.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/FirstMissingPositive.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/problem-solving/src/dynamicprogramming/CoinChangeProblem.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/slidingwindow/LongestSubArrayNotHavingMoreThanKElements.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/slidingwindow/LongestSubArrayNotHavingMoreThanKElements.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/slidingwindow/MaxSumSubArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/slidingwindow/MaxSumSubArray.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/hard/LongestValidParentheses.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/src/medium/slidingwindow/MinimumSizeSubArraySum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

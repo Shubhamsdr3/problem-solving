@@ -1,8 +1,8 @@
 package medium;
 
-public class TrappingRainWater {
+public class MinimumSwapsToGroupAll {
 
-    private static int trap(int[] height) {
+    private static int minSwaps(int[] nums) {
         return 0;
     }
 

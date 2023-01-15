@@ -18,8 +18,8 @@ public class SubArraySumEqualsK {
      * @return
      */
     private static int subarraySum(int[] nums, int k) {
-        Map<Integer, Integer> map = new HashMap<>();
         int sum = 0;
+        Map<Integer, Integer> map = new HashMap<>();
         map.put(sum, 1);
         int count = 0;
         for (int num: nums) {
@@ -30,6 +30,31 @@ public class SubArraySumEqualsK {
             }
         }
         return count;
+    }
+
+    private static boolean checkIfSubarrayExist(int[] arr, int k) {
+        int currentSum = 0;
+        int start = 0;
+        int end = -1;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < arr.length; i++) {
+            currentSum = currentSum + arr[i];
+            if (currentSum - k == 0) {
+                start = 0;
+                end = i;
+                break;
+            }
+            if (map.containsKey(currentSum - k)) {
+                start = map.get(currentSum - k) + 1;
+                end = i;
+                break;
+            }
+            map.put(currentSum, i);
+        }
+        if (end == -1) {
+            return false;
+        }
+        return true;
     }
 
     /**

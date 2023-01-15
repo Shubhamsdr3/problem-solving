@@ -30,8 +30,7 @@ public class SpecialFibonacci {
         for (int i = 2; i < n + 1; i++) {
             arr[i] = arr[i - 1] + arr[i - 2];
         }
-        int val = Math.min(arr[n - 1], arr[n]);
-        return val;
+        return Math.min(arr[n - 1], arr[n]);
     }
 
     public static void main(String[] args) {

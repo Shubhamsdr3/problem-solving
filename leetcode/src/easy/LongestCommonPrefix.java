@@ -1,55 +1,29 @@
 package easy;
 
-import java.util.Arrays;
-import java.util.Comparator;
-
 public class LongestCommonPrefix {
 
     // My brute force approach (:
     private static String longestCommonPrefix(String[] strs) {
-        if (strs== null || strs.length == 0) {
-            return "";
-        }
-        Arrays.sort(strs, Comparator.comparingInt(String::length));
-        String str = strs[0];
-        int i=0;
-        boolean isLcsExist = false;
         StringBuilder sb = new StringBuilder();
-        while (i < str.length()) {
-            char c = str.charAt(i);
-            boolean isEqualInAll = true;
-            for (int j=1; j < strs.length; j++) {
-                if (i < strs[j].length() && c != strs[j].charAt(i)) {
-                    isEqualInAll = false;
-                }
-            }
-            if (isEqualInAll) {
-                sb.append(c);
-                isLcsExist = true;
-            } else {
-                break;
-            }
-            i++;
-        }
-        if (isLcsExist) {
+        if (strs == null || strs.length == 0) {
             return sb.toString();
         }
-        return "";
-    }
+        int minLen = strs[0].length();
+        for (int i = 1; i < strs.length; i++) {
+            minLen = Math.min(minLen, strs[i].length());
+        }
 
-    private static String longestCommonPrefix1(String[] strs) {
-        if(strs == null || strs.length == 0) {
-            return "";
-        }
-        String pre = strs[0];
-        int i = 1;
-        while(i < strs.length){
-            while(strs[i].indexOf(pre) != 0) {
-                pre = pre.substring(0,pre.length()-1);
+        for (int i = 0; i < minLen; i++) {
+            char current = strs[0].charAt(i);
+            for (String str: strs) {
+                if (str.charAt(i) != current) {
+                    return sb.toString();
+                }
             }
-            i++;
+            sb.append(current);
         }
-        return pre;
+
+        return sb.toString();
     }
 
     public static void main(String[] args) {
@@ -57,8 +31,8 @@ public class LongestCommonPrefix {
         String[] arr1 = new String[]{"dog","racecar","car"};
         String[] arr2 = new String[]{"c","acc","ccc"};
         String[] arr3 = new String[]{"aca","cba"};
-//        System.out.println(longestCommonPrefix(arr));
-//        System.out.println(longestCommonPrefix(arr1));
         System.out.println(longestCommonPrefix(arr));
+        System.out.println(longestCommonPrefix(arr1));
+        System.out.println(longestCommonPrefix(arr2));
     }
 }

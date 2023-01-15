@@ -5,27 +5,7 @@ import java.util.Stack;
 public class ValidParentheses {
 
     private static boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
-        for (int i =0; i < s.length(); i++) {
-
-            char current = s.charAt(i);  // s
-
-            if (s.charAt(i) == '(' || s.charAt(i) == '{' || s.charAt(i) == '[') {
-                stack.add(s.charAt(i));
-            }
-            if (s.charAt(i) == ')' || s.charAt(i) == '}' || s.charAt(i) == ']') {
-                if (stack.isEmpty()) {
-                    return false;
-                }
-                char last = stack.peek();
-                if (current == '}' && last == '{' || current == ')' && last == '(' || current == ']' && last == '[') {
-                    stack.pop();
-                } else {
-                    return false;
-                }
-            }
-        }
-        return stack.isEmpty();
+        return false;
     }
 
     private static boolean isValid1(String s) {
@@ -47,8 +27,8 @@ public class ValidParentheses {
         String str = "()[]{}";
         String str1 = "{[]}";
         String str2 = "([)]";
-        System.out.println(isValid(str));
-        System.out.println(isValid(str1));
-        System.out.println(isValid(str2));
+        System.out.println(isValid1(str));
+        System.out.println(isValid1(str1));
+        System.out.println(isValid1(str2));
     }
 }
