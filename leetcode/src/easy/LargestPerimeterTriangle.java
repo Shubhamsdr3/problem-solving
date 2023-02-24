@@ -7,7 +7,6 @@ public class LargestPerimeterTriangle {
     /**
      * A triangle can be formed if the
      * sum of two smaller sides is greater than largest side.
-     *
      * @param nums
      * @return
      */

@@ -5,23 +5,21 @@ import easy.data.ListNode;
 public class RemoveDuplicatesFromSortedList2 {
 
     private static ListNode deleteDuplicates(ListNode head) {
-        if (head == null) return null;
-        ListNode fakeHead = new ListNode(0);
-        fakeHead.next = head;
-        ListNode pre = fakeHead;
-        ListNode curr = head;
-        while (curr != null) {
-            while (curr.next != null && curr.val == curr.next.val) {
-                curr = curr.next;
-            }
-            if (pre.next == curr) {
-                pre = pre.next;
+        ListNode temp = new ListNode(0);
+        temp.next = head;
+        ListNode prev = temp;
+        while (head != null) {
+            if (head.next != null && head.val == head.next.val) {
+                while (head.next != null && head.val == head.next.val) {
+                    head = head.next;
+                }
+                prev.next = head.next; // skip all duplicates.
             } else {
-                pre.next = curr.next;
+                prev = prev.next;
             }
-            curr = curr.next;
+            head = head.next;
         }
-        return fakeHead.next;
+        return temp.next;
     }
 
     public static void main(String[] args) {

@@ -36,7 +36,7 @@ public class BFSAlgorithm {
         distance[startNode] = 0;
 
         // BFS from start
-        while (queue.size() > 0) {
+        while (!queue.isEmpty()) {
             int u = queue.remove(); // get the first node
             // for each unvisited neighbor of the current node
             for (int v : graph.get(u)) {
