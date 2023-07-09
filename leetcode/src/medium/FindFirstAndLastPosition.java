@@ -4,6 +4,42 @@ import java.util.Arrays;
 
 public class FindFirstAndLastPosition {
 
+
+    /**
+     * Improved.
+     * @param nums
+     * @param target
+     * @return
+     */
+    private static int[] searchRangeImproved(int[] nums, int target) {
+        int start = 0;
+        int end = nums.length -1;
+        int[] ans = new int[]{ -1, -1 };
+        // check for the starting position.
+        while (start < end) {
+            int mid = (start + end) / 2;
+            if (nums[mid] < target) start = mid + 1;
+            else end = mid;
+        }
+        if (nums[start] != target) return ans;
+        else ans[0] = start;
+        // check for the end position.
+        end = nums.length -1;
+        while (start < end) {
+            int mid = (start + end) / 2 + 1;
+            if (nums[mid] > target) end = mid -1;
+            else start = mid;
+        }
+        ans[1] = end;
+        return ans;
+    }
+
+    /**
+     * TLE
+     * @param nums
+     * @param target
+     * @return
+     */
     private static int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) {
             return new int[]{-1, -1};
@@ -37,6 +73,6 @@ public class FindFirstAndLastPosition {
     public static void main(String[] args) {
         int[] arr = new int[] {5, 7, 7, 8, 8 , 10};
         int target = 8;
-        System.out.println(Arrays.toString(searchRange(arr, target)));
+        System.out.println(Arrays.toString(searchRangeImproved(arr, target)));
     }
 }

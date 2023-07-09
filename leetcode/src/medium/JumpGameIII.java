@@ -27,12 +27,12 @@ public class JumpGameIII {
             // check it's left and right child
             int left = position - arr[position];
             int right = position + arr[position];
-            // check it's left is valid and not in our hashet to avoid cycles.
+            // check it's left is valid and not in our hashset to avoid cycles.
             if (left >= 0 && left < arr.length && !seen.contains(left)) {
                 seen.add(left);
                 stack.push(left);
             }
-            // check it's right is valid and not in our hashet to avoid cycles.
+            // check it's right is valid and not in our hashset to avoid cycles.
             if (right >= 0 && right < arr.length && !seen.contains(right)) {
                 seen.add(right);
                 stack.push(right);

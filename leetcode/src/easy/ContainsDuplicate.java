@@ -6,8 +6,8 @@ public class ContainsDuplicate {
 
     private static boolean containsDuplicate(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], map.getOrDefault(nums[i], 0) +1);
+        for (int num : nums) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
         }
         for (Map.Entry<Integer, Integer> entry: map.entrySet()) {
             if (entry.getValue() > 1) {
@@ -27,7 +27,7 @@ public class ContainsDuplicate {
         Set<Integer> set =  new HashSet<>();
         for (int num: nums) {
             if (!set.add(num)) {
-                // if set.add(num) -> false means can't add to set its' duplicate element
+                // if set.add(num) -> false means can't add to set it's duplicate element
                 return true;
             }
         }
@@ -35,10 +35,10 @@ public class ContainsDuplicate {
     }
 
     private static boolean containsNearbyDuplicate(int[] nums, int k) {
-        for (int i =0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             int round = k;
             while (round > 0) {
-                if (i+round < nums.length && nums[i] == nums[i+round]) {
+                if (i + round < nums.length && nums[i] == nums[i + round]) {
                     return true;
                 }
                 round--;

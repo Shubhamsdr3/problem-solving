@@ -31,7 +31,7 @@ public class MinimumWindowSubString {
             if (map[c1] > 0) counter--;
             map[c1]--;
             end++;
-            while (counter ==0) {
+            while (counter == 0) {
                 if (minLen > end - start) {
                     minLen = end - start;
                     minStart = start;
