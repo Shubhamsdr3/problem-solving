@@ -6,7 +6,8 @@ public class SpecialFibonacci {
      * Write a method/function which provides the nth number in Fibonacci series?
      * Fib(0) = 0, Fib(1)=1, Fib(2)=1, Fib(3)=2, Fib(4)=3, Fib(5)=5, Fib(6)=8 and so on...
      * E.g. Fibonacci series Fib(5) = Fib(4) + Fib(3) = 3 + 2 = 5
-     * In mathematics, the Fibonacci numbers, commonly denoted Fn (in above example Fib(n)), form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
+     * In mathematics, the Fibonacci numbers, commonly denoted Fn (in above example Fib(n)), form a sequence, called the Fibonacci sequence,
+     * such that each number is the sum of the two preceding ones, starting from 0 and 1.
      */
 
     /**

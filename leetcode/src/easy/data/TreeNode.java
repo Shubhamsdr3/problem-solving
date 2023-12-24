@@ -61,6 +61,26 @@ public class TreeNode {
     }
 
     /**
+     * Visit the node by level order.
+     * @param root
+     */
+    public void levelOrder(TreeNode root) {
+        if (root == null) return;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            TreeNode current = queue.poll();
+            System.out.print(current.val + " ");
+            if (current.left != null) {
+                queue.offer(current.left);
+            }
+            if (current.right != null) {
+                queue.offer(current.right);
+            }
+        }
+    }
+
+    /**
      * Recursive approach to insert value in Binary Search Tree
      * @param root:
      * @param key: value to be inserted
@@ -75,8 +95,7 @@ public class TreeNode {
         if (key < root.val) {
             // if value is less than root value insert at left
             root.left = insertBST(root.left, key);
-        }
-        else if (key > root.val) {
+        } else if (key > root.val) {
             // if value is greater than root value , insert at right
             root.right = insertBST(root.right, key);
         }
@@ -110,5 +129,12 @@ public class TreeNode {
             }
         }
         return root;
+    }
+
+    @Override
+    public String toString() {
+        return "{ left: " + left.val +
+                " right: " + right.val +
+                " value: " + val + "}";
     }
 }

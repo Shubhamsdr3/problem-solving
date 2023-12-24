@@ -13,7 +13,7 @@ public class DecodeString {
             return res.toString();
         }
         int numberOfCharacter = Character.getNumericValue(string.charAt(index));
-        if (string.charAt(index+1) == '[') {
+        if (index + 1 < string.length() && string.charAt(index+1) == '[') {
             String stringInsideBracket = getString(string, index+1);
             while (numberOfCharacter > 0) {
                 res.append(stringInsideBracket);

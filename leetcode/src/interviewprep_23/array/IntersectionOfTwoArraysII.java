@@ -21,7 +21,8 @@ public class IntersectionOfTwoArraysII {
                 start++;
             } else if (nums1[start] > nums2[end]) {
                 end++;
-            } else { // they are equal
+            } else {
+                // they are equal
                 result.add(nums1[start]);
                 start++;
                 end++;
