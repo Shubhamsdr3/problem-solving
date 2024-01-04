@@ -4,8 +4,8 @@ package graph;
 /**
  * Also called @Vertex
  * Represent a single node of a graph
- * A node can more than one properties
- * now I have stored the it's integer value.
+ * A node can more than one properties.
+ * now I have stored it's integer value.
  */
 public class GraphNode {
 
