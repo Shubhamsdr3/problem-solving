@@ -6,11 +6,15 @@ public class RotateArray {
 
     /**
      * Using rotation.
+     *
+     * 1. reverse "----->-->" we can get "<--<-----"
+     * 2. reverse "<--" we can get "--><-----"
+     * 3. reverse "<-----" we can get "-->----->"
      * @param nums
      * @param k
      */
     private static void rotateImproved(int[] nums, int k) {
-       k = k % nums.length;
+       k = k % nums.length; // make sure that k is less than lengh of the array.
        reverse(nums, 0, nums.length - 1);
        reverse(nums, 0, k - 1);
        reverse(nums,  k, nums.length - 1);
